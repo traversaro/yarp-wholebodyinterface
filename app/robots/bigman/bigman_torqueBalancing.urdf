@@ -1108,7 +1108,7 @@ and to define the end effectors of the robot-->
         	</force_torque>
                 <always_on>1</always_on>
          	<!-- <visualize>1</visualize> -->
-          	<update_rate>1000</update_rate>
+          	<update_rate>100</update_rate>
         	<!-- <pose frame=''>0.005 0 -0.107 0 -0 0</pose> -->
         	<!-- <plugin name='RAnkSag_FT_plugin' filename='libgazebo_yarp_forcetorque.so'>
           		<yarpConfigurationFile>model://bigman_urdf/conf/bigman/bigman_gazebo_right_leg_ft.ini</yarpConfigurationFile>
@@ -1125,7 +1125,7 @@ and to define the end effectors of the robot-->
         	</force_torque>
         	<always_on>1</always_on>  	
          	<!-- <visualize>1</visualize> -->
-        	<update_rate>1000</update_rate> 	
+        	<update_rate>100</update_rate> 	
         	<!-- <pose frame=''>0.005 0 -0.107 0 -0 0</pose>  -->
         	<!-- <plugin name='LAnkSag_FT_plugin' filename='libgazebo_yarp_forcetorque.so'>
           		<yarpConfigurationFile>model://bigman_urdf/conf/bigman/bigman_gazebo_left_leg_ft.ini</yarpConfigurationFile>
@@ -1142,7 +1142,7 @@ and to define the end effectors of the robot-->
         	</force_torque>
         	<always_on>1</always_on> 	
         	<!-- <visualize>1</visualize> -->
-        	<update_rate>1000</update_rate> 	
+        	<update_rate>100</update_rate> 	
         	<!-- <pose frame=''>0 0 -0.0565 0 -0 0</pose> -->
         	<!-- <plugin name='LForearmPlate_FT_plugin' filename='libgazebo_yarp_forcetorque.so'>
           		<yarpConfigurationFile>model://bigman_urdf/conf/bigman/bigman_gazebo_left_arm_ft.ini</yarpConfigurationFile>
@@ -1159,7 +1159,7 @@ and to define the end effectors of the robot-->
         	</force_torque>
         	<always_on>1</always_on>	
         	<!-- <visualize>1</visualize> -->
-        	<update_rate>1000</update_rate> 	
+        	<update_rate>100</update_rate> 	
         	<!-- <pose frame=''>0 0 -0.0565 0 -0 0</pose> -->
         	<!-- <plugin name='RForearmPlate_FT_plugin' filename='libgazebo_yarp_forcetorque.so'>
           		<yarpConfigurationFile>model://bigman_urdf/conf/bigman/bigman_gazebo_right_arm_ft.ini</yarpConfigurationFile>
