@@ -1679,7 +1679,6 @@ and to define the end effectors of the robot-->
     <child link="imu_link2"/>
     <origin rpy="0 0 0" xyz="0.0135 0.0 0.0601"/>
  </joint>
-
 <!-- ADDED THE IMPLICIT SPRING DAMPER -->
  <gazebo reference="WaistLat">
     <implicitSpringDamper>1</implicitSpringDamper>
